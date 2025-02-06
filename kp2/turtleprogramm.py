@@ -119,7 +119,7 @@ turi.forward(110)
 #go to position x,y
 turi.penup()
 turi.goto(startingx+700,startingy)
-#draw a circle¨
+#draw a circle
 turi.setheading(0)
 turi.forward(50)
 turi.setheading(90)
@@ -131,7 +131,6 @@ turi.color(0.3,0.3,1)
 turi.end_fill()
 turi.color(0.3,1,0.3)
 turi.penup()
-# turi.color(0.3,0,3,1)
 
 #go to position x,y
 turi.penup()
@@ -195,5 +194,6 @@ while(1):
     turi.goto(600,150)
     turi.goto(-550,150)
     turi.goto(-550,-50)
+#ja ich weiss eine endlose while schleife ist schäbiges programmieren aber ich hatte keine lust was besseres zu implementieren
 
 turtle.done
