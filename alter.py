@@ -5,9 +5,9 @@ monthlength = 30.365
 
 #asks for the birth date
 print("enter your date of birth")
-day = int(input("day in DD = "))
-month = int(input("month in MM = "))
-year = int(input("year in YYYY = "))
+bday = int(input("day in DD = "))
+bmonth = int(input("month in MM = "))
+byear = int(input("year in YYYY = "))
 
 #asks for the current date
 print("enter the current date")
@@ -16,23 +16,23 @@ tmonth = int(input("month in MM = "))
 tyear = int(input("year in YYYY = "))
 
 #direct input in code without inputfunction
-# day=27
-# month=12
-# year=2001
+# bday=27
+# bmonth=12
+# byear=2001
 # tday=6
 # tmonth=2
 # tyear=2025
 
 #converts the birth date into days
-day = day+(month*monthlength)
-day = day+(year*365)
+bday = bday+(bmonth*monthlength)
+bday = bday+(byear*365)
 
 #converts the current date into days
 tday = tday+(tmonth*monthlength)
 tday = tday+(tyear*365)
 
 #calculates the total days alive
-days = tday-day
+days = tday-bday
 
 #calculates the years and rounds them to whole number
 years = days/365
@@ -52,3 +52,4 @@ print("you are",years,"year/s",months,"month/s and",days,"day/s old")
 #Ich habe nicht das gemacht was in der Aufgabe war. 
 #Das Programm, dass ich geschrieben habe ist jedoch um einiges schwieriger und und spannender geworden. 
 #Hoffentlich gefällt es euch.
+#P.S. habe Arlter extended erst gesehen als ich dieses programm schon geschrieben habe. ups
