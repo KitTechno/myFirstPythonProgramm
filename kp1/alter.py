@@ -1,5 +1,7 @@
 #imports math lib
 import math
+import datetime
+
 #variable to tweak the month length to get accurate day results
 monthlength = 30.365
 
@@ -9,11 +11,16 @@ bday = int(input("day in DD = "))
 bmonth = int(input("month in MM = "))
 byear = int(input("year in YYYY = "))
 
+#gets the current date
+tday = datetime.datetime.now().day
+tmonth = datetime.datetime.now().month
+tyear = datetime.datetime.now().year
+
 #asks for the current date
-print("enter the current date")
-tday = int(input("day in DD = "))
-tmonth = int(input("month in MM = "))
-tyear = int(input("year in YYYY = "))
+# print("enter the current date")
+# tday = int(input("day in DD = "))
+# tmonth = int(input("month in MM = "))
+# tyear = int(input("year in YYYY = "))
 
 #direct input in code without inputfunction
 # bday=27
