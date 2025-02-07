@@ -2,7 +2,7 @@
 # Place:              Homeoffice
 # Date:               08.02.2025
 # Filename:           tictactoe.py
-# Short description:  
+# Short description:  creates a tictactoe to play with your friend, if you have one. therwise play with yourself i guess.
 
 #imports the custom functions required for the tic tac toe
 import customturtlefunctions as turtlefunc
