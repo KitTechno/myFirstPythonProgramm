@@ -1,3 +1,9 @@
+# Autor:              Elia Ressl
+# Place:              Homeoffice
+# Date:               06.02.2025
+# Filename:           turtleprogramm.py
+# Short description:  Zeichnet HELLO WORLD. Hab ich ganz selber geschrieben! Auf das W bin ich speziell stoltz. Es sind nähmlich 2 V. 
+
 #adds turle lib
 import turtle
 

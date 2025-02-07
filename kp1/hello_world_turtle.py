@@ -13,7 +13,7 @@ win.bgcolor("light blue")
 turi = turtle.Turtle()  # eine Schildkröte namens "turi" erzeugen
 turi.color("black")     #definiert farbe
 turi.pensize(4)         #definiert grösse
-turi.speed(1)           #definiert geschwindigkeit
+turi.speed(10)           #definiert geschwindigkeit
 
 #Schreibt ein H an position -320,0
 turi.penup()            #hebt den cursor auf sodass keine linie entsteht

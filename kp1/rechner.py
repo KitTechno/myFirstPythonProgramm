@@ -8,7 +8,7 @@ a = int(input("a = "))  #user is asked for int a
 b = int(input("b = "))  #user is asked for int b
 
 #executes the calculations inside the print command
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
+print("a+b=",a+b)
+print("a-b=",a-b)
+print("a*b=",a*b)
+print("a/b=",a/b)
