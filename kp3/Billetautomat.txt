@@ -1,0 +1,20 @@
+3.4.1
+
+Ich würde eine state machine machine
+state 0 ist normalzustand. von hier aus kann man die unterschiedlichen billett auswählen
+state 1 ist nach geld fragen
+state 2 ist geld zählen
+state 3 ist billet ausgeben
+state 4 ist rückgeld ausgeben
+state 5 ist danke "für ihren kauf" ausgeben
+
+methoden braucht es sicher fürs geld zählen und rückgeld ausgeben
+input währe die münzen/noten die eingegeben wurden und das billett das ausgewählt wurde
+return währe ob es genug ist für das billet und der retourbetrag
+
+3.4.2
+verstehe ich nicht ganz was gemeint ist
+ist es einfach ein counter der mit jedem aufruf der square() funktion inkrementiert wird ?
+
+
+
