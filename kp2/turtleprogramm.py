@@ -3,7 +3,7 @@ import turtle
 
 #initialise the windwo for the turtle to move in 
 win = turtle.Screen()
-win.title("🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢🐢")
+win.title("🐢")
 win.bgcolor(0.1,0.1,0.19)
 
 #initialise the turtle turi
